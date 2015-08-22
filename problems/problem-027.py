@@ -11,9 +11,6 @@ from Euler import is_prime
 import time
 import cProfile
 
-cProfile.run("""
-
-
 t_0 = time.clock()
 
 max_consecutive = 0
@@ -31,4 +28,3 @@ for a in xrange(-1000,1001):
 
 print max_consecutive, " is the maximum consecutive number of primes"
 print time.clock()-t_0, " seconds to complete"
-""")
